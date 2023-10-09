@@ -7,31 +7,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2f5fedc287.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Styles/styles.css">
-    <title>Responsive Design</title>
+    <title>Responsive Navigation</title>
 </head>
 
 <body>
-  <header>
-    <div class="topnav">
-      <div class="logo_1">
-        <a class="logo" href="#Head">Head.</a>
-      </div>
-      <div class="navbar_1">
-        <a class="navbar" href="#Works">Works</a>
-        <a class="navbar" href="#Services">Services</a>
-        <a class="navbar" href="#Contacts">Contacts</a>
+  <nav>
+    <button class="visible_btn">Calendar</button>
+    <div class="dropup">
+      <button class="dropbtn">Dropup <i class="fa-solid fa-caret-down"></i></button>
+      <div class="dropup-content">
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">About Us</a>
       </div>
     </div>
-  </header>
-  
-  <h1>Patagonia</h1>
-  <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcor.</p>
-  <div class="img_container">
-    <img src="/Images/Bitmaphorses (2).png" alt="patagonian horses">
-  </div>
-
-  <footer></footer>
- 
+    <button class="visible_btn">Activities</button>
+  </nav>
 </body>
 </html>
+
+
